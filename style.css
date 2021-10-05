@@ -1,0 +1,82 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.LIM{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ header > h1{
+  color: rgb(100, 218, 65);
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Noto Sans Display', sans-serif;
+  padding: 5px;
+ }
+
+ nav{
+   background-color: rgb(100, 218, 65);
+   width: 700px;
+   height: 40px;
+   text-align: center;
+   margin: auto;
+   border: 1px rgb(100, 218, 65);
+   padding: 10px 0px 10px 0px;
+ }
+ section{
+   margin: auto;
+   padding-top: 20px;
+   width: 700px;
+ }
+
+ main h3{
+   color: white;
+   display: inline-block;
+   font-family: 'Noto Sans Display', sans-serif;
+ }
+
+ main p{
+   color: white;
+ }
+
+ .first hr{
+   width: 40%;
+   height: 20px;
+   background-color: rgb(235, 183, 100);
+   border: 2px solid rgb(235, 183, 100);
+   border-radius: 5px;
+ }
+
+ .second hr{
+   width: 60%;
+   height: 20px;
+   background-color: rgb(92, 192, 64);
+   border: 2px solid rgb(92, 192, 64);
+   border-radius: 5px;
+ }
+
+ .third hr{
+   width: 18%;
+   height: 20px;
+   background-color: rgb(177, 74, 70);
+   border: 2px solid rgb(177, 74, 7);
+   border-radius: 5px;
+ }
